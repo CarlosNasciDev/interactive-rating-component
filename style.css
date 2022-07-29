@@ -47,6 +47,7 @@ body{
 }
 
 .hide{
+    visibility: hidden;
     display: none;
 }
 
@@ -99,12 +100,17 @@ h1{
 .rating-btn:hover{
     background-color: hsla(216, 12%, 54%);
     color: white;
+    
 }
 
 .rating-btn:active{
-    
     background-color: hsla(25, 97%, 53%);
     color: white;
+}
+
+.ativo{
+    background-color: hsla(216, 12%, 54%);
+    color: white; 
 }
 
 .submit-btn{
@@ -145,10 +151,17 @@ h1{
 }
 
 .attribution { 
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 15px; 
+    text-align: center;
+    margin-top: 10px; 
+    
+}
+
+.attribution a:hover{
+    color: white;
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsla(25, 97%, 53%);
+    text-decoration: none; 
 }
